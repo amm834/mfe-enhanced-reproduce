@@ -18,6 +18,7 @@ export default defineConfig({
                     name: 'producer',
                     exposes: {
                         './button': './src/button.tsx',
+                        './card': './src/card.tsx',
                     },
                     shared: ['react', 'react-dom'],
                 }),

@@ -4,7 +4,7 @@ const Button = () => {
     return (
         <div>
             <div>Provider button</div>
-            <h1>Hello Suckers</h1>
+            <h1>Hello MFEs</h1>
         </div>
     );
 };
