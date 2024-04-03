@@ -17,8 +17,8 @@ export default defineConfig({
                 new ModuleFederationPlugin({
                     name: 'producer',
                     exposes: {
-                        './button': './src/button.tsx',
-                        './card': './src/card.tsx',
+                        './button': './src/components/button.tsx',
+                        './card': './src/components/card.tsx',
                     },
                     shared: ['react', 'react-dom'],
                 }),
