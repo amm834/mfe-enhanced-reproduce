@@ -15,7 +15,7 @@ export default defineConfig({
         rspack: (config, {appendPlugins}) => {
             appendPlugins([
                 new ModuleFederationPlugin({
-                    name: 'federation_provider',
+                    name: 'producer',
                     exposes: {
                         './button': './src/button.tsx',
                     },

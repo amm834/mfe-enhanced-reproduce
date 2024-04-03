@@ -3,7 +3,8 @@ import React from 'react';
 const Button = () => {
     return (
         <div>
-            return <div>Provider button</div>;
+            <div>Provider button</div>
+            <h1>Hello Suckers</h1>
         </div>
     );
 };

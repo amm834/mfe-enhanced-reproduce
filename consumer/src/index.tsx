@@ -1,1 +1,4 @@
-import('./bootstrap');
+await import('./bootstrap');
+
+export {}
+
